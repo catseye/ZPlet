@@ -19,7 +19,7 @@ zjapp: ../classes/org/zplet/ZJApp.class
 	javac $(JCFLAGS) -sourcepath $(PWD)/main/java -d ../classes main/java/org/zplet/ZJApp.java
 
 zplet.jar: ../classes/org/zplet/Zplet.class
-	jar cvf $@ -C ../classes/ . $(EXTRAJARFILES)
+	jar cvfm $@ jar/manifest.txt -C ../classes/ . $(EXTRAJARFILES)
 
 clean:
 	find ../classes -type f -exec rm "{}" \;	

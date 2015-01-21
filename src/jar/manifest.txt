@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Application-Name: Zplet
+Specification-Title: Zplet
+Specification-Version: 1.0.0
+Specification-Vendor: zplet.org
+Implementation-Title: Zplet
+Implementation-Version: 1.0.0
+Implementation-Vendor: zplet.org
+Sealed: true
+Main-Class: org.zplet.Zplet
+Permissions: sandbox
